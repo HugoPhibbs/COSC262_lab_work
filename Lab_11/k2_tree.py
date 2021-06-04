@@ -1,6 +1,5 @@
 import math
 
-
 class Vec:
     """A simple vector in 2D. Can also be used as a position vector from
        origin to define points.
