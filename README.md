@@ -2,4 +2,4 @@
 
 ## Dont copy anything!
 
-DANKESCHÖN
+Dankeschön!
