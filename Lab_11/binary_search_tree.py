@@ -16,9 +16,9 @@ def binary_search_tree(nums, is_sorted=False, start=None, end=None):
     if n == 1:
         tree = Node(nums[0], None, None)  # A leaf
     else:
-        end = n // 2  # Halfway (approx)
-        left = binary_search_tree(nums[start:end], start, end)
-        right = binary_search_tree(nums[end: ]      , end, end)
+        mid = n // 2  # Halfway (approx)
+        left = binary_search_tree(nums[start:], start, end)
+        right = binary_search_tree(nums[end: ], start, end)
         tree = Node(nums[mid - 1], left, right)
     return tree
 
